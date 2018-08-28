@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.8.3.min.js"></script>
+</head>
+
+<script >
+
+    $(function(){
+        document.write( $("#d") );
+        var d1 = $("#d");
+        var d2 = d1.get(0);
+        document.write(d2);
+        document.close();
+    });
+
+</script>
+
+<div id="d">Hello JQuery</div>
+
+</html>
